@@ -3,7 +3,10 @@ html{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+.texts{
+  width: 100%;
+  padding: 5px;
+}
 
 h2{
   font-family: "Bruno Ace SC", serif;
@@ -33,7 +36,7 @@ h2{
 }
 
 .dm {
-
+  color: #0e0e0e;
 }
 
 .divok {
@@ -80,7 +83,10 @@ body{
     display: none;
   }
 }
-
+.scroll{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 @media (width <  600px) {
 
   /* .maincontainer{
@@ -103,7 +109,8 @@ body{
     font-size: 30px;
   }
   p{
-    width: 100%;
+    width: 85%;
+
   }
   .center-div {
 
