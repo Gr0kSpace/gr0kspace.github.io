@@ -2,14 +2,53 @@
 html{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.sticky{
+    display: flex;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+   z-index: 999999;
+    
+  
+}
+
+.btn {
+  font-family: "Bruno Ace SC", serif;
+  font-weight: 400;
+  width: 100%;
+  height: 50PX;
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: rgb(87, 35, 209);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.instagram{
+
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+.btm:hover {
+  background-color: #3e8e41;
+}
 
 .texts{
   width: 100%;
   padding: 5px;
 }
-p{
+p,h3,li{
   text-shadow: rgba(24, 0, 243, 0.418) 1px 1px,rgba(24, 0, 243, 0.418) -1px -1px;
 }
+
+
+
 h2{
   color: rgba(255, 255, 255, 0.938);
   text-shadow: rgb(0, 35, 131) 1px 1px 5px,rgb(0, 35, 131) -1px -1px 5px,rgb(0, 35, 131) -1px 1px 5px,rgb(0, 35, 131) 1px -1px 5px;
@@ -29,6 +68,10 @@ p{
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+h3,ul{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .imgcc{
@@ -68,7 +111,7 @@ h2{
 
 }
 img{
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .divok:hover {
   transform: translate3d(0px, 0px, -250px);
