@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css?123">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <meta charset="UTF-8">
     <meta name="theme-color" content="#0e0e0e">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +16,7 @@
 <body>
 
 
-   <div class="sticky">
-            <button onclick="location.href='https://gr0kspace.github.io/roadmap.html';" class="btn" style="flex-shrink: 1;background-color: rgb(2, 192, 88);color: white;">ROAD MAP <i class="fa-regular fa-map"></i></button>
-            <button onclick="location.href='https://instagram.com/grokspaceai';" class="btn instagram" style="flex-shrink: 3;color: white;"><i class="fa-brands fa-instagram fa-lg"></i></button>
-            <button onclick="location.href='https://t.me/Grokspacee';" class="btn" style="flex-shrink: 3;background-color: #229ED9;color: white;"><i class="fa-brands fa-telegram fa-lg"></i></button>
-    </div>
-    
+
     <div class="bg-animation height100">
         <div id="stars"></div>   
         <div id="stars2"></div>   
@@ -29,7 +24,11 @@
         <div id="stars5"></div> 
     </div>  
 
-     
+        <div class="sticky">
+            <button onclick="location.href='https://gr0kspace.github.io/roadmap.html';" class="btn" style="flex-shrink: 1;background-color: rgb(2, 192, 88);color: white;">ROAD MAP <i class="fa-regular fa-map fa-fw"></i></button>
+            <button onclick="location.href='https://instagram.com/grokspaceai';" class="btn instagram" style="flex-shrink: 3;color: white;"><i class="fa-brands fa-instagram fa-lg fa-fw"></i></button>
+            <button onclick="location.href='https://t.me/Grokspacee';" class="btn" style="flex-shrink: 3;background-color: #229ED9;color: white;"><i class="fa-brands fa-telegram fa-lg fa-fw"></i></button>
+        </div>
 
         <div class="imgcc mob">
             <img src="w0lCEA6Cr7iWJvfB-generated_image.jpg" width="300" height="230" alt="">
