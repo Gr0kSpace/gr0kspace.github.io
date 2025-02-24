@@ -10,8 +10,15 @@ html{
     width: 100%;
     height: 50px;
    z-index: 999999;
-    
-  
+}
+
+#wpforo #wpforo-wrap .wpforo-forum-icon {
+    display: block !important;
+}
+
+@media screen and (max-width: 620px)
+    #wpforo #wpforo-wrap .wpfl-1 .wpforo-forum-info {
+    width: auto !important;
 }
 
 .btn {
